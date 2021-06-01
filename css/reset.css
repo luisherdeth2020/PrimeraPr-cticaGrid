@@ -1,0 +1,89 @@
+/**----------------------
+ *    FORMATO  ETIQUETAS 
+ *------------------------**/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+body {
+	background-color: #fff;
+	color: #717777;
+	display: grid;
+	font-family: var(--font-family-parrafo);
+	grid-template-columns: 1fr;
+	grid-template-rows: 10% 80% 10%;
+	height: 80%;
+	margin: 10px;
+}
+header {
+	align-items: center;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+}
+main,
+footer {
+	display: grid;
+	grid-template-columns: 1fr 2.5fr;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+}
+article {
+	text-align: right;
+}
+img {
+	width: 100%;
+}
+section {
+	align-items: center;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	flex-direction: column;
+}
+section h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	grid-column: 2;
+	align-self: flex-end;
+}
+section p {
+	line-height: 1.5em;
+	grid-column: 2;
+	align-self: flex-start;
+	grid-row: 2/3;
+	padding: 2em 0;
+	letter-spacing: 2px;
+}
+section button {
+	background-color: #f2674d;
+	border: none;
+	color: #fafafa;
+	width: 150px;
+	grid-column: 2;
+	grid-row: 2/2;
+	border-radius: 2em;
+	padding: 1.2em;
+}
+footer ul {
+	align-items: center;
+	background-color: #f7f6f8;
+	display: flex;
+	grid-column: 2;
+	justify-content: space-around;
+}
+h1 {
+	color: #f2674d;
+	display: grid;
+	font-weight: var(--font-weight-400);
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+}
+h2 {
+	color: #000;
+}

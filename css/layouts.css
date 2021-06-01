@@ -1,0 +1,23 @@
+/**----------------------
+ *    FORMATO CLASES
+ *------------------------**/
+
+.header__ul__left {
+	flex-grow: 0.5;
+	justify-content: space-between;
+}
+.header__ul__right {
+	flex-grow: 0.2;
+}
+.header__ul__right li:nth-child(2) {
+	padding: 0 15px;
+}
+.header__ul__left,
+.header__ul__right {
+	display: flex;
+	flex-direction: row;
+}
+
+.imgan {
+	width: 100px;
+}
