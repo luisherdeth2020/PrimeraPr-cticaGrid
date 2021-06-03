@@ -34,10 +34,10 @@ header nav {
 	justify-content: space-between;
 }
 article {
-	text-align: right;
+	align-self:center;
 }
 img {
-	max-width: 100vw;
+	width: 100%;
 }
 section {
 	align-items: center;

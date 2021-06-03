@@ -21,3 +21,9 @@
 .imgan {
 	width: 100px;
 }
+@media only screen and (max-width: 1400px) {
+	section button{
+		margin-top: 6rem;
+	}
+}
+
